@@ -1,0 +1,86 @@
+body {
+    background-color: cornsilk;
+    margin-left: 2%;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000;
+    text-align: center;
+    width: 80%;
+    font-size: 32px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+main h2 {
+    border-left: 7px solid cyan;
+}
+
+section {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.product {
+    width: 35%;
+    text-align: center;
+}
+
+
+div {
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+div h2 {
+    border-left: 7px solid cyan;
+}
+
+aside {
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.special-offer {
+    width: 35%;
+    text-align: center;
+}
+
+.special-offer img {
+    margin-left: 15%;
+}
+
+footer {
+    border: 1px solid #000;
+    font-size: 1.1rem;
+}
+
+
+.tele {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
